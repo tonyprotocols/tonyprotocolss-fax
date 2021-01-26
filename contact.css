@@ -82,6 +82,7 @@
       display: inline-block;
       font-size: 15px;
       text-align: left;
+      color: white;
      
   }
   input[type=email], select{
@@ -92,10 +93,12 @@
       display: inline-block;
       font-size: 15px;
       text-align: left;    
+      color: white;
   }
   input[id=mailcontent], select{
       padding: 100px 300px;
       text-align: start;
+      color: white;
   }
   textarea{
     color: white;
