@@ -1,0 +1,124 @@
+* {
+    /* reseting default paddings (google css reset) */
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #222222;
+    font-family: "Arial", sans-serif;
+    padding-top: 80px; /* coz fixed header */
+  }
+  
+  .wrapper {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto; /* centering */
+  }
+  
+  .header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background: rgb(12, 0, 0);
+  }
+  
+  .header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: white;
+  }
+  
+  .nav a {
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .orqalogo {
+  transition: transform .2s;
+  width: 180px;
+  height: 150px;
+  margin: 0 auto;
+  margin: 80px 180px;
+  filter: invert(0.50);
+
+  }
+
+.orqalogo:hover {
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5); 
+}
+
+.nxplogo {
+  transition: transform .2s;
+  width: 400px;
+  height: 150px;
+  margin: 0 auto;
+  margin: 80px 180px;
+
+  }
+
+.nxplogo:hover {
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: s
+
+}
+.feritlogo {
+  transition: transform .2s;
+  width: 120px;
+  height: 170px;
+  margin: 0 auto;
+  margin: 80px 180px;
+
+  }
+
+.feritlogo:hover {
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: s
+
+}
+
+  footer{
+  width: 100%;
+  height: 150px;
+  background: rgb(12, 0, 0);
+  color: white;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
+  }
+
+  .foot{
+    padding: 10px;
+  }
+
+
+/* visited link */
+.foot a:visited {
+  color: white;
+ }
+
+/* mouse over link */
+.foot a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.foot a:active {
+  color: blue;
+}
